@@ -41,7 +41,6 @@ def topologicalSort():
 
 # Driver code
 if __name__ == '__main__':
-
 	# Create a graph given in the above diagram
 	V,time, adj, visited, departure = 6, 0, [[] for i in range(7)], [0 for i in range(7)],[-1 for i in range(7)]
 	addEdge(5, 2)
@@ -53,8 +52,6 @@ if __name__ == '__main__':
 
 	print("Topological Sort of the given graph is")
 	topologicalSort()
-
-
 ```
 
 ## Output:
@@ -63,3 +60,4 @@ if __name__ == '__main__':
 
 ## Result:
 The program successfully prints the topological order of the nodes in the given DAG.
+
